@@ -14,7 +14,7 @@ class Player:
         return self.hand.value>21
 
 class Dealer(Player):
-    def __int__(self):
+    def __init__(self):
         super().__init__("Dealer")
     
     def play_turn(self,deck):
